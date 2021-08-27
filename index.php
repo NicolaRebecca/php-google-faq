@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Domande Frequenti</title>
 </head>
 <body>
     
+<nav>
+    <div class="g-logo">
+        <img src="img/Google.png" alt=""> 
+    </div>
+    <div class="subtitle">Privacy e Termini</div>
+</nav>
+
 <?php
 
 $faq = [
@@ -64,7 +71,7 @@ $faq = [
 
 foreach ($faq as $key => $faq) {
     
-    echo $faq['question'] . "<br>" . $faq['answer'] . "<br><br>";
+    echo "<div class=container>" . "<h2>" . $faq['question'] . "</h2>" . "<br>" . $faq['answer'] . "<br><br>" . "</div>";
     
 }
 
