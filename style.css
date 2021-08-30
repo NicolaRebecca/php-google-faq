@@ -5,7 +5,7 @@
 
 nav{
     height: 80px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 
@@ -16,6 +16,12 @@ nav{
     
 }
 
+.sub-nav{
+   display: flex;
+   border: 1px solid black;
+   
+}
+
 .g-logo img{
     margin-top:10px;
     margin-left:20px;
@@ -24,7 +30,7 @@ nav{
 }
 
 .container{
-    padding-top:30px;
-    width: 1200px;
+    padding-top:80px;
+    max-width: 1000px;
     margin:0 auto;
 }

@@ -13,7 +13,8 @@
     <div class="g-logo">
         <img src="img/Google.png" alt=""> 
     </div>
-    <div class="subtitle">Privacy e Termini</div>
+    <div class="subtitle">Privacy e Termini
+    </div>
 </nav>
 
 <?php
